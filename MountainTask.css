@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../../assests/image/space.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+} */
+#mountain{
+    width: 100%;
+    height: 600px;
+    background: url(../../assests/image/LargemountainleftNight.png),url(../../assests/image/MOON.png),url(../../assests/image/smallmountianleftnight.png),url(../../assests/image/bird.gif),url(../../assests/image/Largemountainsrightnight.png),url(../../assests/image/smallsun.png),url(../../assests/image/smallmountainrightnight.png),url(../../assests/image/space.png);
+    background-size: 700px,150px,700px,150px,700px,300px,700px,100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 160px,top left,200px 160px,650px 550px,830px 160px,600px 500px,650px 155px,center;
+    transition: all 5s;
+}
+#mountain:hover{
+    width: 100%;
+    height: 700px;
+    background-image: url(../../assests/image/LargemountainleftDay.png),url(../../assests/image/MOON.png),url(../../assests/image/smallmountianleftday.png),url(../../assests/image/bird.gif),url(../../assests/image/LargemountainsrightDay.png),url(../../assests/image/smallsun.png),url(../../assests/image/smallmountainrightday.png),url(../../assests/image/sky.png);
+    background-size: 700px,50px,700px,150px,700px,150px,700px,100% 120%;
+    background-repeat: no-repeat;
+    background-position:0.3px 155px,180px 300px,150px 149.5px,1200px 150px,830px 155px,680px 0px,660px 150px,bottom ;
+}
